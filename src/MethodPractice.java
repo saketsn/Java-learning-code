@@ -1,8 +1,7 @@
 public class MethodPractice {
     public static void main(String[] args) {
-        convertToCentimeter(100);
-
-        convertToCentimeter(5,5);
+      System.out.println("5ft, 8in = " + convertToCentimeter(5,8) + " cm" );
+      System.out.println("68in = " + convertToCentimeter(68) + " cm");
 
     }
 
