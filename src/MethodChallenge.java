@@ -32,6 +32,8 @@ public class MethodChallenge {
             position = 2;
         } else if (playerScore >= 100) {
             position = 3;
+        } else{
+            return 4;
         }
 
         return position;
